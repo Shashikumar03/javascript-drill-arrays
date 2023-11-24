@@ -1,4 +1,4 @@
-const items = require("../data");
+const { items } = require("../data");
 const map = require("../map");
 
 const answers = map(items, function (item) {

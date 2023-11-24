@@ -1,4 +1,4 @@
-const items = require("../data");
+const { items } = require("../data");
 const { each } = require("../each");
 
 each(items, function (item, index) {

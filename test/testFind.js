@@ -1,7 +1,7 @@
-const items = require("../data");
+const { items } = require("../data");
 const find = require("../find");
 
-let condition = 10;
+let condition = 0;
 
 const answer = find(items, function (item) {
   if (item > condition) {

@@ -1,11 +1,11 @@
 const items = require("../data");
 const find = require("../find");
 
-let condition = 20;
+let condition = 10;
 
-const answer = find(items, function (item, condition) {
+const answer = find(items, function (item) {
   if (item > condition) {
     return true;
   }
-},condition);
+});
 console.log(answer);
